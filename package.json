@@ -1,10 +1,13 @@
 {
+  "homepage": "http://mittalpratik.github.io/reactBasics",
   "name": "react-essentials-start",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^19.0.0",
